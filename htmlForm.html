@@ -7,23 +7,22 @@
 </head>
 <body>
     <form>
-        <div class="bordered"></div>
+      
         <h1>Registration Form!</h1>
         <br />
+        <fieldset>
         <h2>Personal details</h2>
         <hr>
-        <p><b>First name</b></p> 
-        <label for="firstName"></label>
+        <label for="firstName"><b>First name:</b></label>
         <input type="text" name="firstName" id="firstName" placeholder="First name"></input>
-        <p><b>Last name</b></p> 
-        <label for="lastName"></label>
+        <br><br>
+        <label for="lastName"><b>Last name:</b></label>
         <input type="text" name="lastName" id="lastName" placeholder="Last name"></input>
-        <p><b>Email</b></p> 
-        <label for="Email"></label>
+        <br><br>
+        <label for="Email"><b>Email:</b></label>
         <input type="text" name="Email" id="Email" placeholder="Enter Email"></input>
-        <br>
-        <br>
-        <p><b>Gender</b></p>
+        <br><br>
+        <label for="Gender"><b>Gender:</b></label>
         <input type="radio" value="Male"  id="Male" name="Gender">
         <label for="Male">Male</label> 
         <input type="radio" id="Female" name="Gender" value="Female">
@@ -32,7 +31,7 @@
         <br />
         <br>
 
-        <label for="City">City</label> 
+        <label for="City"><b>City:</b></label> 
         <select id="City" name="City">
             <option value="Amman">Amman</option>
             <option value="Aqaba">Amman</option>
@@ -42,9 +41,7 @@
         <br>
     
         <input type="submit" value="Sign In">
-        
-
-
+    </fieldset>
     </form>
 </body>
 </html>
